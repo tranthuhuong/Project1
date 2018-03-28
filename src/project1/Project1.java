@@ -19,7 +19,7 @@ public class Project1 {
     public static void main(String[] args) {
         // TODO code application logic here
         try{
-            String[] chuoi = {"..\\image", "..\\image\\output1.png"};
+            String[] chuoi = {"image", "image\\output1.png"};
             SpriteMap.join(chuoi[0], chuoi[1]);
         }
         catch(IOException ex){
